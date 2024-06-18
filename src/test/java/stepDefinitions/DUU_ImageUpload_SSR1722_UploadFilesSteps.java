@@ -17,7 +17,7 @@ import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.BrowsePcScreenPage;
+//import pages.BrowsePcScreenPage;
 import pages.LoginPage;
 import pages.UploadFilePage;
 import utility.PropertiesFileReader;
@@ -27,7 +27,7 @@ import utility.Utility;
 public class DUU_ImageUpload_SSR1722_UploadFilesSteps {
 	PropertiesFileReader reader = new PropertiesFileReader();
 	UploadFilePage ufPage = new UploadFilePage();
-	BrowsePcScreenPage bpcsPage = new BrowsePcScreenPage();
+	//BrowsePcScreenPage bpcsPage = new BrowsePcScreenPage();
 	final static Logger logger = Logger.getLogger(DUU_ImageUpload_SSR1722_UploadFilesSteps.class);
 	Utility utility = new Utility();
 	Exception exception = null;
