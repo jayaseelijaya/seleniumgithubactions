@@ -17,7 +17,7 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.ApplicationCardsPage;
-//import pages.BrowsePcScreenPage;
+import pages.BrowsePcScreenPage;
 import pages.FacilityListPage;
 import pages.LoginPage;
 import pages.SurgeonListPage;
@@ -37,7 +37,7 @@ public class DUU_ImageUpload_BrowsePcScreen_UISteps {
 	SurgeonListPage sp = new SurgeonListPage();
 	FacilityListPage fp = new FacilityListPage();
 	ApplicationCardsPage ap = new ApplicationCardsPage();
-	//BrowsePcScreenPage bpcsPage = new BrowsePcScreenPage();
+	BrowsePcScreenPage bpcsPage = new BrowsePcScreenPage();
 
 	@BeforeStep
 	public void beforeStep(Scenario scenario) {
@@ -50,7 +50,7 @@ public class DUU_ImageUpload_BrowsePcScreen_UISteps {
 		if (exception != null) {
 			stepStatus = false;
 			logger.info(
-					"\n******************************STEP FAILED*****************************************************");
+					"\n******************************STEP FAILED**bpcsPage***************************************************");
 			exceptionName = exception.getClass().getSimpleName();
 			logger.info("Exception Type : " + exceptionName);
 			if (exceptionName.equals("NoSuchElementException")) {
