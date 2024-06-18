@@ -7,9 +7,14 @@ import io.cucumber.testng.CucumberOptions;
          plugin = {
 		//"pretty", "json:target/cucumber-reports/cucumber.json",
 		//"html:target/cucumber-reports/cucumber.html",
-		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}, tags = "")
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}, tags = "@TC0888")
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 
 }
+
+
+
+
+
