@@ -1,0 +1,83 @@
+login and logout test cases
+
+TC0903
+TC1256
+TC1257
+TC1258
+TC1259
+TC1260
+TC1600
+TC1601
+TC0866
+TC0844
+TC3124
+TC3125
+TC3126
+TC3127
+TC0843
+TC3445
+TC3446
+TC3447
+TC3448
+TC3449
+TC0847
+TC3128
+TC3129
+TC3130
+TC3131
+TC3132
+
+TC3197
+TC3198
+TC5108
+TC5110
+
+
+TC3194---pass
+TC3195----pass
+TC3196----pass
+TC3197---
+TC3198---FAIL
+TC5110----FAIL
+
+
+
+getProperty(String key) method searches for the property with the specified key in this property list. 
+If the key is not found in this property list, the default property list, and its defaults, recursively, are then checked. 
+The method returns null if the property is not found.
+
+
+
+
+
+
+TakesScreenshot scrShot =((TakesScreenshot)webdriver);----------------taking scrennshot using selenium ob
+
+
+
+
+
+
+08/09/2023
+--------------
+Questions:
+1.DUU_Login_SSR1734_ICAdminView.feature----------In one test case we have two given keywords.tc id: TC0903
+
+2.This below steps are required?
+we are taking a username and password from the config.properties file.
+Examples: 
+      | user                        |
+      | ic-test-admin@capgemini.com |
+	  
+3.explanation needed:  
+PropertiesFileReader.class.getResourceAsStream
+public Properties getProperty()
+
+4. what is this method parameters doing
+beforeStep(Scenario scenario)
+
+5.is this parameter for the use of differnet chrome version ----"--remote-allow-origins=*"
+
+6.new Throwable().getStackTrace()[0].getMethodName()
+
+7.@Given("browser is opened by the user")--------do we have this steps in feature file?
